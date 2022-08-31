@@ -174,7 +174,34 @@ footer-section
 small Device / Mobile 
 --------------------*/
 @media only screen and (max-width:688px) {
-    
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-blogs {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .select-blog {
+        background-color: none;
+        background-color: white;
+    }
+    .btn-1, .btn-2, .btn-3 {
+        border: 1px solid gray;
+        margin-left: 5pxs;
+       }
+    .links {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
 }
 
 
@@ -183,16 +210,25 @@ small Device / Mobile
 mediam device / tablet-
 ------------------------*/
 @media only screen and (min-width:689px)  and (max-width:992px){
-    .header {
-       height: ;
-    }
     .iamhidden {
         display: block;   
     }
     .main-blogs {
-        grid-template-columns: 1fr 2fr;
+        display: flex;
+        flex-direction: column;
     }
-    .blogs {
+    .blogs{
         grid-template-columns: 1fr 1fr;
     }
+    .select-blog {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+    }
+   .btn-1, .btn-2, .btn-3 {
+    border: 1px solid gray;
+    margin-left: 5pxs;
+   }
 }
