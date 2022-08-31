@@ -1,0 +1,122 @@
+      
+      /* -----------------
+      Header/Banner section
+      ------------------- */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap:30px;
+    border: 2px solid red;
+    width: 90%;
+    padding: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+.banner-title {
+    padding-left: 50px;
+    color: aliceblue;
+}
+.title {
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.link-button {
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: #DD0000;  
+    text-decoration: none; 
+    font-weight: bolder;
+}
+.watch-live {
+    padding-right: 10px;
+}
+.banner-img {
+    padding-top: 20px;
+    padding-left: 100px;  
+}
+.banner {
+    width: 100%;
+    height: 100%;
+}
+     /* -----------------
+      Header/Banner section End
+         ------------ */
+
+         /* --------------
+         .blogs-section
+         ------------- */
+.main-blogs {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.select-blog {
+    height: 312px;
+    width: 312px;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.btn-1, .btn-2{
+    text-decoration: none;
+    padding: 20px 30px;
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.btn-3 {
+    text-decoration: none;
+    padding: 20px 30px;
+    background-color: #DD0000;
+    color: azure;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.blog {
+    border: 1px solid dimgray;
+    border-radius: 15px;
+}
+.blog-img {
+   
+    
+}
+.transfer-btn {
+    padding: 10px 30px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+.transfer-wri {
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
